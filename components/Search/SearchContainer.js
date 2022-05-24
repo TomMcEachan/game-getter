@@ -11,10 +11,10 @@ export default function SearchContainer() {
             <SearchBox />
             <SearchButton />
         </div>
-        <div className="flex flex-row">
+        <div className="">
             <div></div>
-            <div className="flex flex-row">
-                <PinkButton text="Get Random"/>
+            <div className="flex items-center justify-center">
+                <PinkButton text="Get Random" />
                 <PurpleButton text= "Get Popular" />
             </div>
             <div></div>    
