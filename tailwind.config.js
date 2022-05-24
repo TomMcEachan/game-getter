@@ -11,6 +11,9 @@ module.exports = {
        dropShadow: {
         'pop':['4px 4px 0px black']
        },
+       spacing: {
+        'search':['768px']
+       },
     },
   },
   plugins: [],
