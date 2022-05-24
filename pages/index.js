@@ -4,7 +4,7 @@ import SearchContainer from "../components/Search/SearchContainer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="container mx-auto px-4">
       <Header />
       <SearchContainer />
       <GamePreview />

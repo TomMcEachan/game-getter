@@ -5,7 +5,7 @@ export default function Header() {
       <div className="flex items-center justify-center mb-10 mt-10">
         <div></div>
         <div>  
-            <Logo />    
+            <Logo className="shrink"/>    
         </div>
         <div></div>
       </div>
