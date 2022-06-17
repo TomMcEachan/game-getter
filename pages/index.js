@@ -1,6 +1,7 @@
 import HeaderContainer from "../components/Header/HeaderContainer.js";
 import GamePreviewContainer from "../components/GamePreview/GamePreviewContainer.js";
 import SearchContainer from "../components/Search/SearchContainer";
+import FooterContainer from "../components/Footer/FooterContainer/FooterContainer"
 import Axios from "axios"
 
 
@@ -17,6 +18,7 @@ export default function Home() {
       <HeaderContainer />
       <SearchContainer />
       <GamePreviewContainer />
+      <FooterContainer />
     </div>
   )
 }
